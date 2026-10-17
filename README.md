@@ -4,6 +4,7 @@ Install [PatchPad](https://github.com/Patchbay-s/PatchPad) for Apple silicon:
 
 ```sh
 brew tap Patchbay-s/patchpad
+brew trust Patchbay-s/patchpad   # recent Homebrew versions require trusting third-party taps
 brew install --cask patchpad
 ```
 
